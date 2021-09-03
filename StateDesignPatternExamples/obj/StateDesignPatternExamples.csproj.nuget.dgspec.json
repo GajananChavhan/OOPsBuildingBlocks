@@ -4,6 +4,16 @@
     "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\StateDesignPatternExamples.csproj": {}
   },
   "projects": {
+    "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj",
+        "projectName": "EditorWithMemento",
+        "projectPath": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\StateDesignPatternExamples.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +37,11 @@
         "frameworks": {
           "net5.0": {
             "targetAlias": "net5.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj": {
+                "projectPath": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

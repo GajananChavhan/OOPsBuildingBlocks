@@ -1,4 +1,5 @@
-﻿using System;
+﻿using EditorWithMemento;
+using System;
 
 namespace StateDesignPatternExamples
 {
@@ -6,7 +7,26 @@ namespace StateDesignPatternExamples
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            //Test Editor Example
+            TestEditorExample();
+        }
+
+        public static void TestEditorExample()
+        {
+            var editor = new Editor();
+            var history = new History();
+            editor.Content = "Test";
+            history.Push(editor.CreateState());
+            editor.Content = "Test 1";
+            history.Push(editor.CreateState());
+            editor.Content = "Test 2";
+            //history.Push(editor.CreateState());
+            Console.WriteLine(editor.Content);
+            editor.restore(history.Pop());
+            Console.WriteLine(editor.Content);
+            editor.restore(history.Pop());
+            Console.WriteLine(editor.Content);
+            Console.ReadKey();
         }
     }
 }

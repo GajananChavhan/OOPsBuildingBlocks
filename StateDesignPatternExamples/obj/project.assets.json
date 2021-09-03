@@ -1,11 +1,29 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "EditorWithMemento/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/EditorWithMemento.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EditorWithMemento.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EditorWithMemento/1.0.0": {
+      "type": "project",
+      "path": "../EditorWithMemento/EditorWithMemento.csproj",
+      "msbuildProject": "../EditorWithMemento/EditorWithMemento.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "EditorWithMemento >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\gpcha\\.nuget\\packages\\": {}
@@ -33,7 +51,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj": {
+              "projectPath": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\EditorWithMemento\\EditorWithMemento.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
