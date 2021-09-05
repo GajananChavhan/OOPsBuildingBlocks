@@ -3,3 +3,16 @@
 ################################################################################
 
 /.vs
+/EditorWithMemento/obj/Debug
+/EditorWithMemento/bin/Debug
+/HelloWorld/.vs/HelloWorld/DesignTimeBuild
+/StateDesignPatternExamples/bin/Debug/net5.0
+/DocumentMementoDemo/bin/Debug/net5.0
+/DocumentMementoDemo/obj
+/StateDesignPatternExamples/obj/Debug/net5.0
+/StateDesignPatternExamples/obj/MementoDesignPatternExamples.csproj.nuget.g.targets
+/StateDesignPatternExamples/obj/MementoDesignPatternExamples.csproj.nuget.g.props
+/StateDesignPatternExamples/obj/MementoDesignPatternExamples.csproj.nuget.dgspec.json
+/StateDesignPatternExamples/obj/EditorWithMementoCalle.csproj.nuget.g.targets
+/StateDesignPatternExamples/obj/EditorWithMementoCalle.csproj.nuget.g.props
+/StateDesignPatternExamples/obj/EditorWithMementoCalle.csproj.nuget.dgspec.json

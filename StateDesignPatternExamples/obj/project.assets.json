@@ -31,9 +31,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\StateDesignPatternExamples.csproj",
-      "projectName": "StateDesignPatternExamples",
-      "projectPath": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\StateDesignPatternExamples.csproj",
+      "projectUniqueName": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\EditorWithMementoCalle.csproj",
+      "projectName": "EditorWithMementoCalle",
+      "projectPath": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\EditorWithMementoCalle.csproj",
       "packagesPath": "C:\\Users\\gpcha\\.nuget\\packages\\",
       "outputPath": "C:\\Gajanan\\Learning\\OOPsBuildingBlocks\\StateDesignPatternExamples\\obj\\",
       "projectStyle": "PackageReference",
